@@ -51,7 +51,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.MyViewHo
         ImageView imgAva;
         TextView txtLostMoney, txtJamName, txtMinuteAgo;
 
-        public MyViewHolder(@NonNull View itemView) {
+        public MyViewHolder (@NonNull View itemView) {
             super(itemView);
 
             /*imgAva = itemView.findViewById(R.id.imgAva);

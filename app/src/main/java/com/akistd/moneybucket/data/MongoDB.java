@@ -449,4 +449,7 @@ public class MongoDB implements MongoRepository{
         });
     }
 
+    public void close() {
+        realm.close();
+    }
 }
